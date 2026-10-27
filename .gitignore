@@ -1,0 +1,48 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.dc-kuna-ghidra.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Native build products
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+/main
+/compiled/
+/compiled_kuna/
+/compiled_ghidra/
+
+# Experiment output
+/decompiled/
+/reconstructions/
+/results/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
